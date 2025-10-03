@@ -4,6 +4,11 @@ table {
   border-collapse: collapse;
   background-color: #fefce8;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+table:hover {
+  transform: scaleX(1.05);
 }
 
 thead {
@@ -40,23 +45,25 @@ tbody td:first-child {
 }
 
 tbody tr {
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 tbody tr:hover {
-  transform: scale(1.02);
-}
-
-tbody tr:hover td {
-  transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
 tbody tr:hover td:nth-child(2) {
-  font-weight: bold;
+  background-color: #f5ffdb;
+  color: #8a9e5f;
 }
 
 tbody tr:hover td:last-child {
-  font-weight: bold;
+  background-color: #e6eec7;
+  color: #8a9e5f;
+}
+
+tbody tr:hover td:first-child {
+  color: #8a9e5f;
 }
 
 .subtext {
