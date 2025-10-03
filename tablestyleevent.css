@@ -4,15 +4,11 @@
   overflow: hidden;
   font-family: Arial, sans-serif;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .event-card:hover {
-  transform: scale(1.05);
-}
-
-.event-card:hover .event-header {
-  background-color: #a4bc6e;
+  transform: scaleX(1.05);
 }
 
 .event-header {
