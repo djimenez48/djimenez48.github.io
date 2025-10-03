@@ -56,14 +56,6 @@ body {
   gap: 20px;
 }
 
-/*@media (min-width: 1001px) {
-  main {
-    transform: scale(0.8);
-    transform-origin: top center;
-    overflow: hidden;
-  }
-} */
-
 @media (min-width: 1001px) {
   main {
     font-size: 200%;
